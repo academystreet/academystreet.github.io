@@ -1,16 +1,21 @@
 body {
-	background-image: url("../images/hero1_mainstreet.jpg");
+	background-image: url("../images/hero1_mainstreet.jpg") no-repeat;
 	background-size: cover;
 	text-align: center;
 	font-family: arial;
+ }
+ nav{
+ 	background-color: #fff
+ }
+ header{
+
  }
  h1 {
  	color: #FFF9AE;
  	text-transform: capitalize;
  }
- #slogan {
- 	color: #FFF9AE;
- 	font-style: italic;
+ h2{
+
  }
  p {
  	color: #ffffff;
@@ -19,4 +24,23 @@ body {
  	text-align: center;
  	color: #ffffff;
  	list-style-type: none;
+ }
+ h3{
+
+ }
+ section{
+
+ }
+ h4{
+
+ }
+ footer{
+ 	background-color: #000
+ }
+  .navlinks{
+ 	
+ }
+  #slogan {
+ 	color: #FFF9AE;
+ 	font-style: italic;
  }
