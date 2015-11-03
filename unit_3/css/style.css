@@ -1,3 +1,22 @@
 body {
-	background-image: url("images/hero1_mainstreet.jpg");
+	background-image: url("/Users/KMHOME/Desktop/academystreet.github.io/unit_3/images/hero1_mainstreet.jpg");
+	background-size: cover;
+	text-align: center;
+	font-family: arial;
+ }
+ h1 {
+ 	color: #FFF9AE;
+ 	text-transform: capitalize;
+ }
+ #slogan {
+ 	color: #FFF9AE;
+ 	font-style: italic;
+ }
+ p {
+ 	color: #ffffff;
+ }
+ ul {
+ 	text-align: center;
+ 	color: #ffffff;
+ 	list-style-type: none;
  }
