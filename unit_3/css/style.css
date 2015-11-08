@@ -1,8 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:700,400);
+
 body {
 	background-image: url("../images/hero1_mainstreet.jpg") no-repeat;
 	background-size: cover;
 	text-align: center;
-	font-family: arial;
+	font-family: 'Alegreya Sans SC', sans-serif;
  }
  nav{
  	background-color: #fff
