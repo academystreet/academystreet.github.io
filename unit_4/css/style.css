@@ -1,17 +1,23 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:700,400);
 
 body {
-	background: url(../images/hero1_mainstreet.jpg) no-repeat;
-	background-size: contain;
 	text-align: center;	
 	font-family: georgia, serif
 	margin: 3em;
+	color: #fff;
+ }
+ .wrapper{
+ 	background: #3c536e;
  }
  nav{
     
  }
  header{
-
+ 	padding: 30px;
+ }
+ main{
+ 	background: url(../images/hero1_mainstreet.jpg) no-repeat;
+    padding: 30px 0 30px 0;
  }
  h1 {
  	color: #FFF9AE;
@@ -19,18 +25,13 @@ body {
  	font-size: 60px;
  }
  h2{
+ 	font-family: 'Alegreya Sans SC', sans-serif;
     font-size: 30px;
  }
  p {
  	color: #ffffff;
  	margin: 50px;
 
- }
- ul {
- 	text-align: center;
- 	color: #ffffff;
- 	list-style-type: none;
- 	
  }
  h3{
 
@@ -42,7 +43,6 @@ body {
 
  }
  footer{
- 	background-color: #000
  }
   .navlinks{
  	
