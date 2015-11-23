@@ -6,27 +6,42 @@ body {
 	margin: 3em;
 	color: #fff;
  }
+ h1, h2, h3{
+    font-family: 'Alegreya Sans SC', sans-serif;
+ }
  .wrapper{
  	background: #3c536e;
  }
- nav{
-    
+ #nav1 {
+ 	font-family: arial black, sans-serif;
+ 	text-transform: uppercase;  
+ 	text-align: right; 
  }
+a{
+	padding: 0 30px 0 30px;
+}
  header{
  	padding: 30px;
  }
  main{
- 	background: url(../images/hero1_mainstreet.jpg) no-repeat;
-    padding: 30px 0 30px 0;
+ 	height: 800px;
+ 	background: url(../images/hero1_mainstreet.jpg) no-repeat bottom center scroll;
+    background-size: cover; 
  }
  h1 {
- 	color: #FFF9AE;
- 	font-family: 'Alegreya Sans SC', sans-serif;
+ 	color: #235c58;
  	font-size: 60px;
+ 	text-align: left;
  }
  h2{
- 	font-family: 'Alegreya Sans SC', sans-serif;
     font-size: 30px;
+ }
+ #transparent{
+ 	background-color: #3c536e;
+ 	opacity: 0.6;
+ 	margin: 50px;
+ 	padding: 30px;
+ 
  }
  p {
  	color: #ffffff;
@@ -43,6 +58,7 @@ body {
 
  }
  footer{
+ 	font-family: arial black, sans-serif;
  }
   .navlinks{
  	
