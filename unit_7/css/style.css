@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:700,400);
+
+body {
+	background-color: #000;
+	font-family: georgia, serif
+	
+ }
+ title {
+    display: none;
+}
+ #logo{
+    float: left;
+    display: block;
+    margin-left: 100px;
+    margin-top: 20px;
+ }
+ h1, h3{
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+a {
+	text-transform: uppercase; 
+	color: #fff;
+	padding: 30px;
+    float: right;
+    font-family: arial black, sans-serif; 	
+}
+ header{
+ 	background-color: #000;
+    border: 1px black solid;
+    padding: 20px;
+    height: 60px;
+ }
+ main{
+ 	height: 800px;
+ 	background: url(../images/hero1_mainstreet.jpg) no-repeat bottom center scroll;
+    background-size: cover; 
+ }
+ h1 {
+ 	color: #235c58;
+ 	font-size: 50px;
+ 	text-align: left;
+ 	padding: 30px;
+    display: inline-block;
+    width: 85%;
+    margin-left: 100px;
+
+ }
+ #transparent{
+ 	background-color: #3c536e;
+ 	opacity: 0.6;
+    padding: 20px;	
+    height: 150px;
+    width: 80%;
+    display: block;
+    margin: auto;
+ }
+ p {
+ 	color: #fff;
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5em;
+ }
+ h3{
+
+ }
+ section{
+    background-color: #78a3d8;
+    height: 400px;
+
+ }
+ #two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    border: 1px black solid;
+    background-color: blue;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+ .nav2links{
+    float:left;
+ }
+ footer{
+ 	font-family: arial black, sans-serif;
+ 	background-color: #000;
+    border: 1px black solid;
+    padding: 20px;
+    height: 30px;
+    float: left;
+
+
